@@ -1,0 +1,16 @@
+.cms {
+  padding-top: 100px;
+
+  & .content {
+    display: flex;
+    justify-content: space-between;
+
+    & .info {
+      width: 100%;
+      max-width: 70%;
+      border: 1px solid rgb(130, 130, 232);
+      padding: 20px;
+      border-radius: 4px;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.tabs {
+  & .header {
+    border: 1px solid rgb(130, 130, 232);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    width: max-content;
+
+    & a {
+      padding: 5px 20px;
+      transition: 0.3s;
+      color: rgb(55, 55, 145);
+
+      &.active {
+        background-color: rgb(55, 55, 145);
+        color: #fff;
+      }
+
+      &:hover {
+        background-color: rgb(156, 156, 244);
+      }
+    }
+  }
+
+  & .content {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,25 @@
+.home {
+  height: 100vh;
+  background-color: lightblue;
+
+  padding-top: 100px;
+
+  & .title {
+    & h1 {
+      max-width: 1000px;
+
+      font-weight: 800;
+      font-size: 80px;
+      line-height: 90px;
+      margin-bottom: 15px;
+    }
+
+    & p {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 40px;
+
+      color: rgb(23, 23, 23);
+    }
+  }
+}
