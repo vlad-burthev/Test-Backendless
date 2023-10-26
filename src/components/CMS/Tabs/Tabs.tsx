@@ -1,4 +1,4 @@
-import { useState, type FC, useEffect, Suspense, lazy } from "react";
+import { useState, type FC, Suspense, lazy } from "react";
 import styles from "./tabs.module.scss";
 import tabsData from "../../../assets/data/tabsData.json";
 import { Route, Routes, NavLink } from "react-router-dom";
